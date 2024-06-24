@@ -1,0 +1,233 @@
+/* CSS Reset */
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #0e0000;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 25px;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+
+/* Style rules for mobile viewport */
+
+
+/* Style rules for header */
+header {
+    /* width: 25%;
+    float: left; */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 100%;
+}
+
+header img {
+    margin: 0 auto;
+    max-width: 10%;
+}
+
+
+main {
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* Style rule for navigation area */
+nav {
+    padding: 1%;
+    /* margin-bottom: 1%; */
+    background-color: #7ddee9;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+
+
+    display: inline-block;
+
+
+    font-size: 1.5em;
+    font-family: 'Francois One', sans-serif;
+}
+
+nav li:first-child {
+    border-top: none;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+
+/* Style rules for team members pictures */
+.team-member {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
+
+.team-member img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+}
+
+/* Style rules for faq page question */
+.faq {
+    padding: 10px;
+    margin: 50px;
+    box-shadow: 12px 15px 12px #170064;
+    border-radius: 45px;
+    border: 3px solid #170064;
+}
+
+/* Style rules for specials page image */
+.offer {
+    margin-left: 35%;
+    max-width: 30%;
+    border: 4px solid;
+}
+
+#special {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+.off {
+    font-size: 1.7em;
+}
+
+.bold {
+    font-weight: bold;
+    color: #1e1342;
+    font-style: italic;
+}
+
+.discount {
+    width: 25%;
+    border: 4px solid #0e0000;
+    float: left;
+    /* margin-left: 15%; */
+}
+
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: block;
+    padding: 1%;
+}
+
+/* Style rules for main content */
+main {
+    background-color: #e9bc4a;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.tel-link {
+    background-color: #040404;
+    padding: 2%;
+    margin: 0 auto;
+    width: 25%;
+    text-align: center;
+    border-radius: 59px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+
+.action {
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
+
+
+.round {
+    border-radius: 8px;
+}
+
+
+.external-link {
+    color: #666600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact {
+    text-align: center;
+}
+
+
+#contact .contact-email-link {
+    color: #666600;
+    text-decoration: none;
+}
+
+.map {
+    border: 4px solid #000;
+    width: 95%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+/* Style rules for footer content */
+footer {
+    background-color: #000;
+}
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
