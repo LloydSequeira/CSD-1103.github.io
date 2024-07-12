@@ -59,6 +59,14 @@ main {
     border-radius: 8px;
 }
 
+/* main p {
+    text-align: center;
+} */
+
+/* aside p {
+    text-align: center;
+} */
+
 /* Style rule for navigation area */
 nav {
     padding: 1%;
@@ -147,14 +155,22 @@ nav li a {
 
 /* Style rules for about page image */
 aside {
-    width: 25%;
-    float: ;margin-top: 20px;
+    width: 32%;
+    margin-top: 35px;
+    margin-bottom: 30px;
     margin-left: 37%;
-    background-color: #7a5ae5;
+    background-color: #9d84f1;
     text-align: center;
     box-shadow: 5px 5px 8px #000;
-    border-radius: 5px 15px;
+    border-radius: 8px 18px;
 }
+
+section {
+    border: 3px solid #000;
+    border-radius: 45px;
+    box-shadow: 12px 15px 12px #170064;
+    text-align: center;
+    }
 
 /* Show mobile class, hide tablet-desktop class */
 .mobile {
