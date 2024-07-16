@@ -1,0 +1,12 @@
+/* Style rules for team members pictures */
+.team-member {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
+
+.team-member img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+}
