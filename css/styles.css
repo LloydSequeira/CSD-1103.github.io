@@ -89,6 +89,11 @@ nav li:first-child {
     border-top: none;
 }
 
+nav li:hover {
+    opacity: 0.5;
+    background-color: #657476;
+}
+
 nav li a {
     display: block;
     color: #fff;
