@@ -16,3 +16,29 @@ section {
     box-shadow: 12px 15px 12px #170064;
     text-align: center;
     }
+
+    /* Media Query for mobile Viewport */
+@media screen and (max-width: 600px) {
+
+    aside {
+        width: auto;
+        margin: 10%;
+    }
+}
+
+
+/* Media Query for tablets */
+@media screen and (min-width: 610px) and (max-width: 1024px) {
+    aside {
+        width: fit-content;
+        margin: auto;
+    }
+}
+
+/* Media Query for desktops */
+@media screen and (min-width: 1025px) {
+    aside {
+        width: fit-content;
+        margin: auto;
+    }
+}

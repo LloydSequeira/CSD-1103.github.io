@@ -252,6 +252,14 @@ footer p a {
         width: 100%;
         height: auto;
     }
+
+    #special {
+        display: flex;
+        padding: 2%;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
 }
 
 /* Media Query for tablets */
@@ -282,6 +290,11 @@ footer p a {
         width: 90%;
         height: auto;
     }
+
+    /* #special {
+        width: auto;
+        margin: 10px;
+    } */
 }
 
 
