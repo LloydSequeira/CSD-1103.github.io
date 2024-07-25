@@ -1,0 +1,89 @@
+/* Contact Page style */
+.tel-link {
+    background-color: #040404;
+    padding: 2%;
+    margin: 0 auto;
+    width: 25%;
+    text-align: center;
+    border-radius: 59px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+.action {
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
+
+.round {
+    border-radius: 8px;
+}
+
+.external-link {
+    color: #666600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact {
+    text-align: center;
+}
+
+
+#contact .contact-email-link {
+    color: #666600;
+    text-decoration: none;
+}
+
+.map {
+    border: 4px solid #000;
+    width: 95%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+
+/* Media Query for mobile Viewport */
+@media screen and (max-width: 600px) {
+    .tel-link {
+        width: 80%;
+    }
+
+    .map {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Media Query for tablets */
+@media screen and (min-width: 610px) and (max-width: 1024px) {
+    .tel-link {
+        width: 60%;
+    }
+
+    .map {
+        width: 90%;
+        height: auto;
+    }
+}
+
+
+/* Media Query for desktops */
+@media screen and (min-width: 1025px) {
+    
+    .tel-link {
+        width: 60%;
+    }
+
+    .map {
+        width: 90%;
+        height: auto;
+    }
+}
