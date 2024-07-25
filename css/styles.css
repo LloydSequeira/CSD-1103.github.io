@@ -141,55 +141,6 @@ nav li a {
     /* margin-left: 15%; */
 }
 
-/* Contact Page style */
-.tel-link {
-    background-color: #040404;
-    padding: 2%;
-    margin: 0 auto;
-    width: 25%;
-    text-align: center;
-    border-radius: 59px;
-}
-
-.tel-link a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5em;
-    display: block;
-}
-
-.action {
-    font-size: 1.35em;
-    color: #666600;
-    font-weight: bold;
-}
-
-.round {
-    border-radius: 8px;
-}
-
-.external-link {
-    color: #666600;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-#contact {
-    text-align: center;
-}
-
-
-#contact .contact-email-link {
-    color: #666600;
-    text-decoration: none;
-}
-
-.map {
-    border: 4px solid #000;
-    width: 95%;
-    height: 50%;
-    border-radius: 15px;
-}
 
 /* Style rules for footer content */
 footer {
@@ -235,8 +186,6 @@ footer p a {
         font-size: 1em;
     }
 
-   
-    
     .edit {
         max-width: auto;
     }
@@ -247,15 +196,6 @@ footer p a {
     section {
         margin: 10px;
         width: auto;
-    }
-
-    .tel-link {
-        width: 80%;
-    }
-
-    .map {
-        width: 100%;
-        height: auto;
     }
 
     #special {
@@ -278,22 +218,12 @@ footer p a {
         margin: 8px;
     }
 
-    
     .faq,
     .discount,
     aside,
     section {
         margin: 20px;
         width: auto;
-    }
-
-    .tel-link {
-        width: 60%;
-    }
-
-    .map {
-        width: 90%;
-        height: auto;
     }
 
     /* #special {
@@ -318,9 +248,10 @@ footer p a {
         font-size: 1.5em;
     }
 
-    
-
-    .faq, .discount, aside, section {
+    .faq,
+    .discount,
+    aside,
+    section {
         margin: 30px;
         width: auto;
     }
