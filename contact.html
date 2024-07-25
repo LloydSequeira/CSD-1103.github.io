@@ -54,6 +54,75 @@
                     width="600" height="450" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+
+
+            <div id="form">
+                <h2>Conatct Us!</h2>
+
+                <form class="form-grid">
+                    <fieldset>
+                        <legend>Customer Information</legend>
+                        <label for="fname">First Name: </label>
+                        <input type="text" name="fname" id="fname" placeholder="First Name" autofocus required>
+
+                        <label for="lname">Last Name: </label>
+                        <input type="text" name="lname" id="lname" placeholder="First Name" required>
+
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.ca" required>
+
+                        <label for="phone">Phone: </label>
+                        <input type="tel" name="phone" id="phone" placeholder="437-555-9988" required>
+
+                        <label for="address">Address: </label>
+                        <input type="address" name="address" id="address" placeholder="Area Name" required>
+
+                        <label for="city">City: </label>
+                        <input type="text" name="city" id="city" placeholder="City" required>
+
+                        <label for="city">Province: </label>
+                        <select id="province">
+                            <option value="province"> -- Select -- </option>
+                            <option value="AB">Alberta</option>
+                            <option value="BC">British Columbia</option>
+                            <option value="MN">Manitoba</option>
+                            <option value="NB">New Brunswick</option>
+                            <option value="NL">Newfoundland and Labrador</option>
+                            <option value="AB">Northwest Territories</option>
+                            <option value="NS">Nova Scotia</option>
+                            <option value="NU">Nunavut</option>
+                            <option value="ON">Ontario</option>
+                            <option value="PE">Prince Edward Island</option>
+                            <option value="QB">Quebec</option>
+                            <option value="SASK">Saskatchewan</option>
+                            <option value="YU">Yukon</option>
+                        </select>
+
+                        <label for="postal">Postal Code: </label>
+                        <input type="text" name="postal" id="postal" placeholder="Postal Code" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Reason for Contact</legend>
+                        <input type="checkbox" name="schedule" id="schedule" value="schedule">
+                        <label for="schedule">Schedule Safety Training</label>
+
+                        <input type="checkbox" name="distributor" id="distributor" value="distributor">
+                        <label for="distributor">Become a Distributor</label>
+                        
+                        <input type="checkbox" name="Support" id="Support" value="Support">
+                        <label for="Support">Product Support</label>
+                        
+                        <input type="checkbox" name="warranty" id="warranty" value="warranty">
+                        <label for="warranty">RMA/Warranty Support</label>
+                        
+                        <input type="checkbox" name="replacement" id="replacement" value="replacement">
+                        <label for="replacement">Replacement Parts/Labels</label>
+                    </fieldset>
+
+                </form>
+            </div>
+
         </main>
 
         <!-- Use the footer to add webpage footer content-->
