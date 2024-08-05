@@ -62,25 +62,25 @@
                 <form class="form-grid">
                     <fieldset>
                         <legend>Customer Information</legend>
-                        <label for="fname">First Name: </label>
-                        <input type="text" name="fname" id="fname" placeholder="First Name" autofocus required>
+                        <label for="fname">First Name: 
+                        <input type="text" name="fname" id="fname" placeholder="First Name" autofocus required></label>
 
-                        <label for="lname">Last Name: </label>
-                        <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                        <label for="lname">Last Name: 
+                        <input type="text" name="lname" id="lname" placeholder="Last Name" required> </label>
 
-                        <label for="email">Email: </label>
-                        <input type="email" name="email" id="email" placeholder="example@gmail.ca" required>
+                        <label for="email">Email: 
+                        <input type="email" name="email" id="email" placeholder="example@gmail.ca" required></label>
 
-                        <label for="phone">Phone: </label>
-                        <input type="tel" name="phone" id="phone" placeholder="437-555-9988" required>
+                        <label for="phone">Phone: 
+                        <input type="tel" name="phone" id="phone" placeholder="437-555-9988" required></label>
 
-                        <label for="address">Address: </label>
-                        <input type="address" name="address" id="address" placeholder="Area Name" required>
+                        <label for="address">Address:
+                        <input type="address" name="address" id="address" placeholder="Area Name" required></label>
 
-                        <label for="city">City: </label>
-                        <input type="text" name="city" id="city" placeholder="City" required>
+                        <label for="city">City: 
+                        <input type="text" name="city" id="city" placeholder="City" required></label>
 
-                        <label for="city">Province: </label>
+                        <label for="city">Province: 
                         <select id="province">
                             <option value="province"> -- Select -- </option>
                             <option value="AB">Alberta</option>
@@ -96,12 +96,12 @@
                             <option value="QB">Quebec</option>
                             <option value="SASK">Saskatchewan</option>
                             <option value="YU">Yukon</option>
-                        </select>
+                        </select></label>
 
-                        <label for="postal">Postal Code: </label>
-                        <input type="text" name="postal" id="postal" placeholder="Postal Code" required>
+                        <label for="postal">Postal Code: 
+                        <input type="text" name="postal" id="postal" placeholder="Postal Code" required></label>
                     </fieldset>
-
+ññ
                     <fieldset>
                         <legend>Reason for Contact</legend>
                         <input type="checkbox" name="schedule" id="schedule" value="schedule">
@@ -135,6 +135,29 @@
                         <input type="radio" name="other" id="other" value="other">
                         <label for="other">Other</label>
                     </fieldset>
+
+                    <fieldset>
+                        <legend>Preferred Day for Call back</legend>
+                        <input type="date" name="callback" id="callback" value="callback">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>How did you hear about us!</legend>
+                        <!-- <label for="reference">How did you find us?</label> -->
+                        <select name="reference" id="reference">
+                            <option value="ad">Advertisement</option>
+                            <option value="friend">Friend</option>
+                            <option value="google">Google</option>
+                            <option value="social">Social Media</option>
+                            <option value="other">Other</option>
+                        </select>
+
+                        <label for="questions">Questions?</label>
+                        <textarea id="questions" name="questions" rows="5" cols="50"></textarea>
+                    </fieldset>
+
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                    <input type="reset" id="reset" value="Reset" class="btn">
 
                 </form>
             </div>
