@@ -62,78 +62,83 @@
                 <form class="form-grid">
                     <fieldset>
                         <legend>Customer Information</legend>
-                        <label for="fname">First Name: 
-                        <input type="text" name="fname" id="fname" placeholder="First Name" autofocus required></label>
+                        <label for="fname">First Name:
+                            <input type="text" name="fname" id="fname" placeholder="First Name" autofocus
+                                required></label>
 
-                        <label for="lname">Last Name: 
-                        <input type="text" name="lname" id="lname" placeholder="Last Name" required> </label>
+                        <label for="lname">Last Name:
+                            <input type="text" name="lname" id="lname" placeholder="Last Name" required> </label>
 
-                        <label for="email">Email: 
-                        <input type="email" name="email" id="email" placeholder="example@gmail.ca" required></label>
+                        <label for="email">Email:
+                            <input type="email" name="email" id="email" placeholder="example@gmail.ca" required></label>
 
-                        <label for="phone">Phone: 
-                        <input type="tel" name="phone" id="phone" placeholder="437-555-9988" required></label>
+                        <label for="phone">Phone:
+                            <input type="tel" name="phone" id="phone" placeholder="437-555-9988" required></label>
 
                         <label for="address">Address:
-                        <input type="address" name="address" id="address" placeholder="Area Name" required></label>
+                            <input type="address" name="address" id="address" placeholder="Area Name" required></label>
 
-                        <label for="city">City: 
-                        <input type="text" name="city" id="city" placeholder="City" required></label>
+                        <label for="city">City:
+                            <input type="text" name="city" id="city" placeholder="City" required></label>
 
-                        <label for="city">Province: 
-                        <select id="province">
-                            <option value="province"> -- Select -- </option>
-                            <option value="AB">Alberta</option>
-                            <option value="BC">British Columbia</option>
-                            <option value="MN">Manitoba</option>
-                            <option value="NB">New Brunswick</option>
-                            <option value="NL">Newfoundland and Labrador</option>
-                            <option value="AB">Northwest Territories</option>
-                            <option value="NS">Nova Scotia</option>
-                            <option value="NU">Nunavut</option>
-                            <option value="ON">Ontario</option>
-                            <option value="PE">Prince Edward Island</option>
-                            <option value="QB">Quebec</option>
-                            <option value="SASK">Saskatchewan</option>
-                            <option value="YU">Yukon</option>
-                        </select></label>
+                        <label for="city">Province:
+                            <select id="province">
+                                <option value="province"> -- Select -- </option>
+                                <option value="AB">Alberta</option>
+                                <option value="BC">British Columbia</option>
+                                <option value="MN">Manitoba</option>
+                                <option value="NB">New Brunswick</option>
+                                <option value="NL">Newfoundland and Labrador</option>
+                                <option value="AB">Northwest Territories</option>
+                                <option value="NS">Nova Scotia</option>
+                                <option value="NU">Nunavut</option>
+                                <option value="ON">Ontario</option>
+                                <option value="PE">Prince Edward Island</option>
+                                <option value="QB">Quebec</option>
+                                <option value="SASK">Saskatchewan</option>
+                                <option value="YU">Yukon</option>
+                            </select></label>
 
-                        <label for="postal">Postal Code: 
-                        <input type="text" name="postal" id="postal" placeholder="Postal Code" required></label>
+                        <label for="postal">Postal Code:
+                            <input type="text" name="postal" id="postal" placeholder="Postal Code" required></label>
                     </fieldset>
-ññ
+
                     <fieldset>
                         <legend>Reason for Contact</legend>
-                        <input type="checkbox" name="schedule" id="schedule" value="schedule">
-                        <label for="schedule">Schedule Safety Training</label>
 
-                        <input type="checkbox" name="distributor" id="distributor" value="distributor">
-                        <label for="distributor">Become a Distributor</label>
+                        <label for="schedule"><input type="checkbox" name="schedule" id="schedule" value="schedule">
+                            Schedule Safety Training</label>
 
-                        <input type="checkbox" name="Support" id="Support" value="Support">
-                        <label for="Support">Product Support</label>
+                        <label for="distributor"><input type="checkbox" name="distributor" id="distributor"
+                                value="distributor">
+                            Become a Distributor</label>
 
-                        <input type="checkbox" name="warranty" id="warranty" value="warranty">
-                        <label for="warranty">RMA/Warranty Support</label>
+                        <label for="Support"><input type="checkbox" name="Support" id="Support" value="Support">
+                            Product Support</label>
 
-                        <input type="checkbox" name="replacement" id="replacement" value="replacement">
-                        <label for="replacement">Replacement Parts/Labels</label>
+                        <label for="warranty"><input type="checkbox" name="warranty" id="warranty" value="warranty">
+                            RMA/Warranty Support</label>
+
+                        <label for="replacement"><input type="checkbox" name="replacement" id="replacement"
+                                value="replacement">
+                            Replacement Parts/Labels</label>
                     </fieldset>
 
 
                     <fieldset>
                         <legend>Preferred Contact Method</legend>
-                        <input type="radio" name="email" id="email" value="email">
-                        <label for="email">Email</label>
 
-                        <input type="radio" name="phone" id="phone" value="phone">
-                        <label for="phone">Phone</label>
+                        <label for="email"><input type="radio" name="email" id="email" value="email">
+                            Email</label>
 
-                        <input type="radio" name="text" id="text" value="text">
-                        <label for="text">Text</label>
+                        <label for="phone"><input type="radio" name="phone" id="phone" value="phone">
+                            Phone</label>
 
-                        <input type="radio" name="other" id="other" value="other">
-                        <label for="other">Other</label>
+                        <label for="text"><input type="radio" name="text" id="text" value="text">
+                            Text</label>
+
+                        <label for="other"><input type="radio" name="other" id="other" value="other">
+                            Other</label>
                     </fieldset>
 
                     <fieldset>
@@ -153,7 +158,7 @@
                         </select>
 
                         <label for="questions">Questions?</label>
-                        <textarea id="questions" name="questions" rows="5" cols="50"></textarea>
+                        <textarea id="questions" name="questions" rows="6" cols="30"></textarea>
                     </fieldset>
 
                     <input type="submit" id="submit" value="Submit" class="btn">
