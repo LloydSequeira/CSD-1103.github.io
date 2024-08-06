@@ -48,6 +48,9 @@
     border-radius: 15px;
 }
 
+fieldset {
+    text-align: center;
+}
 
 fieldset legend {
     font-weight: bold;
@@ -56,7 +59,29 @@ fieldset legend {
 
 label {
     display: block;
+    padding-top: 2%;
 }
+
+form #submit {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+form #reset {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
 
 /* Media Query for mobile Viewport */
 @media screen and (max-width: 600px) {
@@ -81,12 +106,18 @@ label {
         width: 90%;
         height: auto;
     }
+
+    /* Tablet Viewport: Style rule for form element */
+    form {
+        width: 60%;
+        margin: 0 auto;
+    }
 }
 
 
 /* Media Query for desktops */
 @media screen and (min-width: 1025px) {
-    
+
     .tel-link {
         width: 60%;
     }
@@ -95,4 +126,11 @@ label {
         width: 90%;
         height: auto;
     }
+
+    /* Desktop Viewport: Style rules for form elements */
+    form {
+        width: 50%;
+        margin: 0 auto;
+    }
+
 }
